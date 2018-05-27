@@ -1,4 +1,6 @@
-.kitchen/
-.venv/
-srv/
-Gemfile.lock
+/tests/pillar/default.sls
+/.vagrant/
+.cache/
+__pycache__/
+*.pyc
+.*.swp

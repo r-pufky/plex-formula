@@ -1,2 +1,7 @@
 plex:
-  version: 1.10.1.4602-f54242b6b
+  package: plexmediaserver
+
+  release:
+    public_key: https://downloads.plex.tv/plex-keys/PlexSign.key
+    config_doc: https://support.plex.tv/articles/235974187-enable-repository-updating-for-supported-linux-server-distributions/
+    reference_doc: https://www.plex.tv/

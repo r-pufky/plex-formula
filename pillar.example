@@ -1,2 +1,9 @@
-#plex:
-#  version: 0.9.16.4.1911-ee6e505
+# Lookup values are set in defaults.yaml and may be overridden here.
+plex:
+  lookup:
+    package: plexmediaserver
+
+    release:
+      public_key: https://downloads.plex.tv/plex-keys/PlexSign.key
+      config_doc: https://support.plex.tv/articles/235974187-enable-repository-updating-for-supported-linux-server-distributions/
+      reference_doc: https://www.plex.tv/
